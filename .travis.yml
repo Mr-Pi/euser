@@ -1,10 +1,6 @@
 language: erlang
 notifications:
         email: github-contact@mr-pi.de
-env:
-        - APPNAME='euser'
-        - AUTOMODULE='euser_mainServer'
-        - ENVIRONMENT='erlang'
 otp_release:
         - R16B
         - R15B03
