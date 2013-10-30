@@ -1,0 +1,12 @@
+{application, euser,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { euser_app, []}},
+  {env, []}
+ ]}.
